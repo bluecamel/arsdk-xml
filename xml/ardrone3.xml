@@ -2171,7 +2171,7 @@
 	</class>
 	<class name="PictureSettingsState" id="20">
 		Photo settings state from product
-		<cmd name="PictureFormatChanged" id="0">
+		<cmd name="PictureFormatSelectionChanged" id="0">
 			<comment
 				title="Picture format"
 				desc="Picture format."
@@ -2193,7 +2193,7 @@
 				</enum>
 			</arg>
 		</cmd>
-		<cmd name="AutoWhiteBalanceChanged" id="1">
+		<cmd name="AutoWhiteBalanceSelectionChanged" id="1">
 			<comment
 				title="White balance mode"
 				desc="White balance mode."
@@ -2218,7 +2218,7 @@
 				</enum>
 			</arg>
 		</cmd>
-		<cmd name="ExpositionChanged" id="2">
+		<cmd name="ExpositionSelectionChanged" id="2">
 			<comment
 				title="Image exposure"
 				desc="Image exposure."
@@ -2234,7 +2234,7 @@
 				Max exposure value
 			</arg>
 		</cmd>
-		<cmd name="SaturationChanged" id="3">
+		<cmd name="SaturationSelectionChanged" id="3">
 			<comment
 				title="Image saturation"
 				desc="Image saturation."
@@ -2250,7 +2250,7 @@
 				Max saturation value
 			</arg>
 		</cmd>
-		<cmd name="TimelapseChanged" id="4">
+		<cmd name="TimelapseSelectionChanged" id="4">
 			<comment
 				title="Timelapse mode"
 				desc="Timelapse mode."
@@ -2507,7 +2507,7 @@
 	</class>
 	<class name="GPSSettingsState" id="24">
 		GPS settings state
-		<cmd name="HomeChanged" id="0">
+		<cmd name="SetHomeChanged" id="0">
 			<comment
 				title="Home location"
 				desc="Home location."
